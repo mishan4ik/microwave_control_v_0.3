@@ -1,0 +1,100 @@
+.block_main{
+
+    width: 400px;
+    min-height: 700px;
+    border: 2px solid #000;
+
+}
+
+.block_main_microwave{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+
+.block_reheating_food,.block_defrosting_food,.block_grill_food,.block_start_app{
+
+    margin-top: 25px;
+
+}
+
+.block_btn_reheating,.block_btn_defrosting,.block_btn_grill,.block_start_app{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.text_time{
+
+    text-align: center;
+
+}
+
+.block_inp_time{
+
+    display: flex;
+    justify-content: center;
+
+}
+.text_time,.time_reheating,.time_defrosting,.time_grill{
+
+    font-size: 14px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.reheating_food,.defrosting_food,.grill_food,.btn_start_app{
+
+    width: 150px;
+    height: 50px;
+    background-color: blueviolet;
+    color: #ffff;
+
+}
+
+.block_start_app{
+
+    margin-bottom: 20px;
+
+}
+
+.block_dish{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.block_time_reheating,.block_time_defrosting,.block_grill_dish{
+
+    display: none;
+
+
+}
+
+.answer_text_start{
+
+    font-size: 14px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.block_answer_start{
+
+    display: flex;
+    justify-content: center;
+
+}
+.soup,.buckwheat,.pasta{
+
+    font-size: 14px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+
+}
